@@ -7,7 +7,7 @@ totalScore = 0
 
 cheatSheet = open("./inputs/aoc-d2.txt")
 
-def lossDrawWin(number):
+def loss_draw_win(number):
     if number == 0:
         return 0
     if number == 1:
@@ -23,11 +23,11 @@ for line in cheatSheet:
         roundOfGame = line
 
     if rock.count(roundOfGame) == 1:
-        totalScore += 1 + (lossDrawWin(rock.index(roundOfGame)))
+        totalScore += 1 + (loss_draw_win(rock.index(roundOfGame)))
     elif paper.count(roundOfGame) == 1:
-        totalScore += 2 + (lossDrawWin(paper.index(roundOfGame)))
+        totalScore += 2 + (loss_draw_win(paper.index(roundOfGame)))
     else:
-        totalScore += 3 + (lossDrawWin(scissors.index(roundOfGame)))
+        totalScore += 3 + (loss_draw_win(scissors.index(roundOfGame)))
 
 cheatSheet.close()
 
