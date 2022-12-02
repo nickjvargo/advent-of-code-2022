@@ -11,6 +11,8 @@ for line in listOfSnackBags:
         elvesSnackBagArray.append(elfSnackBag)
         elfSnackBag = 0
 
+listOfSnackBags.close()
+
 #Necessary to add last snack bag, as the file does not end in \n
 elvesSnackBagArray.append(elfSnackBag)
 
