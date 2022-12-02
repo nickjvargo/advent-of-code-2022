@@ -21,7 +21,6 @@ for line in cheatSheet:
         roundOfGame = line[:-1]
     else:
         roundOfGame = line
-    
 
     if rock.count(roundOfGame) == 1:
         totalScore += 1 + (lossDrawWin(rock.index(roundOfGame)))
