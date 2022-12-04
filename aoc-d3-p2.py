@@ -21,13 +21,10 @@ for group in allElfGroups:
     firstRuckSack = group[0]
     secondRuckSack = group[1]
     thirdRuckSack = group[2]
-    for ruckSack in group:
-        ruckSack = [i for i in ruckSack]
-        ruckSack = list(dict.fromkeys(ruckSack))
     for item in firstRuckSack:
-        print(firstRuckSack)
         if secondRuckSack.count(item) != 0 and thirdRuckSack.count(item) != 0:
             duplicatedItems.append(item)
+            break
 
 
 # Use ASCII values to avoid making maps for letter values
