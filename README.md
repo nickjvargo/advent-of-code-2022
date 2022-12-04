@@ -9,7 +9,6 @@ Just a couple things to note:
 - inputs has the input.txt files
 - problems has the detailed problem statements
 - format for files: d1-p1 = day one part one, etc.
-- some problems may have multiple answers--the first one is how I did it the quickest,
-and the extra credit is when I went back later and optimized it (to my ability)
+- some problems may have multiple answers--the first one is how I did it the quickest, and the extra credit is when I went back later and optimized it (to my ability)
 
 Enjoy :)
